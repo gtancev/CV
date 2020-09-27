@@ -1,5 +1,7 @@
 # CV
 
+This repository contains a LaTeX template for a curriculum vitae (CV).
+
 ## Installation of Tex Distribution
 
 Before being able to compile tex-files on a machine, one might need to download a tex distribution.
