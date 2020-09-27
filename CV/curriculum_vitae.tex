@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans,english]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85,a4paper]{geometry} % Reduce document margins
+\usepackage{gensymb}
+\usepackage{amssymb}
+%\renewcommand\labelitemi{-}
+\renewcommand*{\namefont}{\fontsize{12}{0}\bfseries}
+\renewcommand*{\titlefont}{\fontsize{12}{0}\bfseries}
+\renewcommand*{\sectionfont}{\fontsize{10}{0}\bfseries}
+\renewcommand*{\subsectionfont}{\fontsize{10}{0}\bfseries}
+\urlstyle{same}
+%\nopagenumbers{}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Georgi} % Your first name
+\familyname{Tancev} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{MSc ETH}
+\address{Schauenburgerstrasse 39}{4052 Basel}
+\mobile{+41 79 664 61 16}
+%\phone{}
+%\fax{}
+\email{g.tancev@gmail.com}
+\homepage{github.com/gtancev}{github.com/gtancev} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{Swiss Citizenship}
+%\photo[64pt][0.0pt]{pictures/picture.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+%
+%\clearpage
+%
+%\recipient{HR Department}{Swiss Re\\Mythenquai 50/60\\8022 Zurich} % Letter recipient
+%\date{\today} % Letter date
+%\opening{To whom it may conern,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}, diploma, and certificate of employment} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%I am writing to you in response to the advertised internship in the strategy and development group.
+%
+%
+%In less than three months, I will finish my studies and graduate in chemical and bioengineering at the Federal Institute of Technology in Zurich. In my education, I have learned a lot about chemistry and chemical processes, especially in terms of design and development. Of course, Swiss Re is not a chemical company, but this is exactly the reason why you are appealing to me, as I am interested in getting new insights in a different field and broadening my expertise. 
+%
+%
+%I have heard a lot about chemical industry and its operations, but I am also interested in the world beyond that. In different events in consulting, I was convinced that this is possible. As an engineer, having an affinity to numbers and analytical and problem-solving skills is self-evident. Furthermore, I could show that I'm able to work independently and without any supervision during my master's thesis in catalysis.
+%
+%Since 2014, I have been working as a tutor in a private school. There, I have been teaching maths and natural sciences to adolescents, which was only possible by having adequate social skills. I had the chance to work with colleagues of different professional backgrounds which was quite rewarding and which is another reason why I might see myself outside from chemical industry.
+%
+%
+%Due to the reasons mentioned above, I would be pleased if you could give me this opportunity. I would dearly like to discuss the scope of this position and welcome the chance of a meeting.
+%
+%Thank you in advance for your time and consideration.
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+%\vspace{-40pt}
+\section{Experience}
+
+\cventry{01/20--}{Research Scientist}{Swiss Federal Institute of Metrology}{Bern}{}{\begin{itemize} 
+		\item Developing, implementing, and evaluating of machine learning algorithms for prediction (e.g. regularized linear regressions/neural networks or random forests) and anomaly detection (e.g. isolation forest) from raw sensor data in Python using Scikit-Learn, TensorFlow, PyMC.
+		\item Managing a project funded by the Swiss Innovation Agency (\href{https://www.aramis.admin.ch/Texte/?ProjectID=44523}{36779.1 IP-ENG}) with the objective of developing a novel low-cost sensor system for air quality monitoring powered by machine learning and with Internet of Things capability.
+		\item Conducting market analyses, interacting with original equipment manufacturers, designing experiments from published data, and assessing component parts with respect to performance.
+		\item Organizing and moderating project meetings, giving presentations, and writing/reviewing (scientific) reports and publications.
+		\item Analyzing experimental data as in-house data science consultant for different metrology laboratories or external collaborators.\end{itemize}}
+
+\cventry{09/19--11/19}{Data Scientist}{University of Basel}{Basel}{}{\begin{itemize} 
+		\item Implementing, training, and evaluating deep learning models for image segmentation (MD-GRU, V-Net) in Python using TensorFlow and high performance computing (HPC). 
+		\item Analyzing volumetric medical imaging data, i.e. segmentation of multiple sclerosis lesions in human brain scans generated by magnetic resonance imaging (MRI). \end{itemize}}
+
+\cventry{04/18--04/19}{Data Scientist}{University Children's Hospital Basel}{Basel}{}{\begin{itemize} 
+		\item Developing standardization procedures for a novel medical device based on breath gas analysis.
+		\item Analyzing and visualizing clinical/omics data (supervised/unsupervised machine learning, parametric and non-parametric statistical tests, analysis of variance), i.e. mining biomarkers/risk factors and statistical modeling in MATLAB and Python using Pandas and Scikit-Learn. 
+		\item Deploying machine learning models using Flask, Angular, and Docker.
+		\item Reporting results and writing scientific publications. \end{itemize}}
+
+\cventry{05/17--03/18}{Postgraduate}{Novartis}{Basel}{}{\begin{itemize} 
+		\item Programming, modeling, and simulating manufacturing processes in Python using NumPy, SciPy, and Matplotlib.
+		\item Developing crystallization processes of early-phase drug substances in wet-lab. 
+		\item Designing/drawing manufacturing inventory using FreeCAD.\end{itemize}}
+
+\cventry{01/14--04/17}{Tutor}{Forum 44}{Baden}{}{\begin{itemize} 
+		\item Teaching math, physics, and chemistry to adolescents in one-to-one or group lessons.\end{itemize}}
+
+\section{Education}
+
+\cventry{09/15--03/17}{MSc ETH in Chemical and Bioengineering}{Swiss Federal Institute of Technology}{Zürich}{5.6}{}
+\cventry{09/11--08/15}{BSc ETH in Chemical Engineering}{Swiss Federal Institute of Technology}{Zürich}{4.8}{}
+\cventry{08/07--06/11}{General Qualification for University Entrance}{Cantonal School}{Baden}{}{}
+\cventry{08/96--06/07}{Elementary School}{}{Baden}{}{}
+
+\section{Certifications}
+
+\cventry{04/20}{Bayesian Methods for Machine Learning}{National Research University - Higher School of Economics}{}{}{}
+\cventry{03/20}{Algorithms and Data Structures}{University of California, San Diego}{}{}{}
+\cventry{02/19}{Deep Learning}{deeplearning.ai}{}{}{}
+\cventry{01/19}{SQL for Data Scientists}{University of California, Davis}{}{}{}
+\cventry{12/18}{Machine Learning}{Stanford University}{}{}{}
+\cventry{11/18}{Good Clinical Practice}{University Hospital Basel}{Basel}{}{}
+\cventry{11/18}{Project Management for Researchers}{University of Basel}{Basel}{}{} 
+\cventry{10/18}{Scientific Writing (Academic Conventions and Style)}{University of Basel}{Basel}{}{} 
+
+\section{Projects}
+
+\cventry{10/19--11/19}{Medical Language Model Learner (MLML)}{}{}{}{\begin{itemize} 
+		\item Medical Language Model Learner (MLML) is a machine learning/data science application for natural language processing of medical documents (classification by medical specialty). It is developed as a pure Python back-end using Scikit-Learn and Streamlit (\textit{\url{ml-ml.herokuapp.com}}). \end{itemize}}
+
+\cventry{05/19--09/19}{openPK}{}{}{}{\begin{itemize} 
+		\item openPK is an attempt to provide physiolocigally based pharmacokinetic modeling to a broader audience. Deterministic pharmacokinetic models from the academic literature have been implemented in a Python/Flask back-end, whereas the front-end has been built in TypeScript/Angular (\textit{\url{openpk.herokuapp.com}}). \end{itemize}}
+
+\section{Skills}
+\subsection{Industry Knowledge}
+
+\cvlistdoubleitem{Algorithms}{Mathematical Modeling}
+\cvlistdoubleitem{Data Analysis}{Programming}
+\cvlistdoubleitem{Data Science}{Research}
+\cvlistdoubleitem{Deep Learning}{Numerical Simulation}
+\cvlistdoubleitem{Machine Learning}{Statistics}
+
+\subsection{Tools and Technologies}
+
+\cvlistdoubleitem{Git}{Python}
+\cvlistdoubleitem{LaTeX}{SQL}
+\cvlistdoubleitem{MATLAB}{Unix}
+
+\subsection{Interpersonal Skills}
+\cvlistdoubleitem{Communication}{Negotiation}
+\cvlistdoubleitem{Critical Thinking}{Teamwork}
+
+\subsection{Languages}
+
+\cvlistdoubleitem{English (advanced)}{German (native)}
+\cvlistdoubleitem{French (basic)}{Macedonian (basic)}
+
+\section{Interests}
+\cvlistdoubleitem{Data Science}{Photography}
+\cvlistdoubleitem{Endurance Sports}{Politics}
+\cvlistdoubleitem{Literature}{Technology}
+
+\section{Publications}
+%\subsection{Research Papers}
+
+\cvlistitem{\href{https://doi.org/10.1093/ndt/gfaa128}{V. Gotta, G. Tancev et al. Identifying Key Predictors of Mortality in Young Patients on Chronic Haemodialysis - A Machine Learning Approach. \textit{Nephrology Dialysis Transplantation}, 2020.}}
+
+\cvlistitem{\href{https://doi.org/10.1007/s00216-019-01764-8}{K. Singh, G. Tancev et al. Standardization Procedures for Real-Time Breath Analysis by Secondary Electrospray Ionization High-Resolution Mass Spectrometry. \textit{Analytical and Bioanalytical Chemistry}, 411, 2019.}}
+
+%
+%\subsection{Blog}
+%
+%\cvlistitem{\href{https://towardsdatascience.com/uncertainty-quantification-of-predictions-with-bayesian-inference-6192e31a9fa9}{G. Tancev, \textit{Uncertainty Quantification of Predictions with Bayesian Inference}, Towards Data Science (2020).}}
+%
+%\cvlistitem{\href{https://towardsdatascience.com/the-relocation-problem-of-sensor-systems-e3b9db0f51b2}{G. Tancev, \textit{The Relocation Problem of Air Quality Sensor Systems}, Towards Data Science (2020).}}
+%
+%\cvlistitem{\href{https://towardsdatascience.com/bayesian-neural-networks-with-tensorflow-probability-fbce27d6ef6}{G. Tancev, \textit{Bayesian Neural Networks with TensorFlow Probability}, Towards Data Science (2020).}}
+%
+%\cvlistitem{\href{https://towardsdatascience.com/how-sampling-biases-might-be-ruining-your-predictions-f9e021d79723}{G. Tancev, \textit{How Sampling Biases Might Be Ruining Your Predictions}, Towards Data Science (2020).}}
+%
+%\cvlistitem{\href{https://towardsdatascience.com/mining-and-classifying-medical-text-documents-1876462f73bc}{G. Tancev, \textit{Mining and Classifying Medical Documents}, Towards Data Science (2019).}}
+%
+%\cvlistitem{\href{https://towardsdatascience.com/detecting-brain-lesions-in-multiple-sclerosis-patients-with-deep-learning-dc7e32950d1f}{G. Tancev, \textit{Detecting Lesions in Multiple Sclerosis Patients with Deep Learning}, Towards Data Science (2019).}}
+%
+%\cvlistitem{\href{https://medium.com/@g.tancev/predicting-pharmacokinetics-with-deterministic-models-and-bayesian-statistics-e3822a28977b}{G. Tancev, \textit{Predicting Pharmacokinetics with Deterministic Models and Bayesian Statistics}, Towards Data Science (2019).}}
+%
+%\cvlistitem{\href{https://medium.com/@g.tancev/mining-biomarkers-from-breath-2975740b2d24}{G. Tancev, \textit{Diagnosing Diseases with Breath Metabolomics and Machine Learning}, Towards Data Science (2019).}}
+%
+%\cvlistitem{\href{https://medium.com/@g.tancev/clinical-data-science-an-introduction-9c778bd83ea2}{G. Tancev, \textit{An Introduction to Clinical Data Science}, Towards Data Science (2019).}}
+
+%----------------------------------------------------------------------------------------
+% REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{References}
+%
+%\cvitem{}{\cvreference{Jeroen A. van Bokhoven}{Professor and Head}{Laboratory for Catalysis and Sustainable Chemistry}{\textit{Swiss Federal Institute of Technology Zurich}, Zurich}{}{\href{mailto:jeroen.vanbokhoven@chem.ethz.ch}{jeroen.vanbokhoven@chem.ethz.ch}}{}}
+%\cvitem{}{\cvreference{Janik Pfister}{Particle Engineer}{Laboratory for Particle Engineering}{\textit{Novartis}, Basel}{}{\href{mailto:janik.pfister@novartis.com}{janik.pfister@novartis.com}}{}}
+%\cvitem{}{\cvreference{Julia Vogt}{Professor and Head}{Laboratory for Medical Data Science}{\textit{Swiss Federal Institute of Technology Zurich}, Zurich}{}{\href{mailto:julia.vogt@inf.ethz.ch}{julia.vogt@inf.ethz.ch}}{}}
+%\cvitem{}{\cvreference{Verena Gotta}{Clinical Pharmacologist \& Pharmacometrician}{Research Center for Pediatric Pharmacology \& Pharmacometrics}{\textit{University Children's Hospital Basel}, Basel}{}{\href{mailto:verena.gotta@ukbb.ch}{verena.gotta@ukbb.ch}}{}}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
