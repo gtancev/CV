@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.26)  16 SEP 2020 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.26)  27 SEP 2020 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,21 +759,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 201.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 204.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
 
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./curriculum_vitae.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
 Package rerunfilecheck Info: File `curriculum_vitae.out' has not changed.
 (rerunfilecheck)             Checksum: 5DDEEFBD84C7D6E710452AF12E0235FD;1214.
  ) 
 Here is how much of TeX's memory you used:
  23076 strings out of 492162
  394391 string characters out of 6125292
- 582118 words of memory out of 5000000
+ 584118 words of memory out of 5000000
  27122 multiletter control sequences out of 15000+600000
  586230 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -785,7 +785,7 @@ st/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/public/lm/lmsso10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
 blic/lm/lmsso9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/marvo
 sym/marvosym.pfb>
-Output written on curriculum_vitae.pdf (2 pages, 145063 bytes).
+Output written on curriculum_vitae.pdf (2 pages, 145267 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
