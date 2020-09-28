@@ -12,6 +12,6 @@ Read more about it here: https://www.latex-project.org/get/
 Next, a tex editor is installed. I prefer texstudio:
 https://www.texstudio.org/
 
-## Edit
+## Modification of File
 
 The tex-file is edited/modified and compiled.
